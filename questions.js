@@ -1,0 +1,390 @@
+let questions = [
+    {
+        numb: 1,
+        question: "What does HTML stand for?",
+        answer: "C. Hyper Text Markup Language",
+        options: [
+            "A. Hyperlinks and Text Markup Language",
+            "B. Home Tool Markup Language",
+            "C. Hyper Text Markup Language",
+            "D. Hyper Tool Markup Language"
+        ]
+    },
+    {
+        numb: 2,
+        question: "Which HTML tag is used to define an unordered list?",
+        answer: "B. &lt;ul&gt;",
+        options: [
+            "A. &lt;ol&gt;",
+            "B. &lt;ul&gt;",
+            "C. &lt;li&gt;",
+            "D. &lt;list&gt;"
+        ]
+    },
+    {
+        numb: 3,
+        question: "Which HTML attribute specifies an alternate text for an image?",
+        answer: "A. alt",
+        options: [
+            "A. alt",
+            "B. title",
+            "C. src",
+            "D. href"
+        ]
+    },
+    {
+        numb: 4,
+        question: "What is the correct HTML element for inserting a line break?",
+        answer: "C. &lt;br&gt;",
+        options: [
+            "A. &lt;lb&gt;",
+            "B. &lt;break&gt;",
+            "C. &lt;br&gt;",
+            "D. &lt;new&gt;"
+        ]
+    },
+    {
+        numb: 5,
+        question: "Which HTML element is used to specify a footer for a document?",
+        answer: "B. &lt;footer&gt;",
+        options: [
+            "A. &lt;bottom&gt;",
+            "B. &lt;footer&gt;",
+            "C. &lt;section&gt;",
+            "D. &lt;foot&gt;"
+        ]
+    },
+    {
+        numb: 6,
+        question: "Which tag is used to create a hyperlink in HTML?",
+        answer: "A. &lt;a&gt;",
+        options: [
+            "A. &lt;a&gt;",
+            "B. &lt;link&gt;",
+            "C. &lt;href&gt;",
+            "D. &lt;hyper&gt;"
+        ]
+    },
+    {
+        numb: 7,
+        question: "Which doctype declaration is correct for HTML5?",
+        answer: "C. &lt;!DOCTYPE html&gt;",
+        options: [
+            "A. &lt;!DOCTYPE HTML PUBLIC&gt;",
+            "B. &lt;!DOCTYPE HTML SYSTEM&gt;",
+            "C. &lt;!DOCTYPE html&gt;",
+            "D. &lt;!DOCTYPE&gt;"
+        ]
+    },
+    {
+        numb: 8,
+        question: "Which HTML tag is used to display a picture on a webpage?",
+        answer: "B. &lt;img&gt;",
+        options: [
+            "A. &lt;picture&gt;",
+            "B. &lt;img&gt;",
+            "C. &lt;src&gt;",
+            "D. &lt;photo&gt;"
+        ]
+    },
+    {
+        numb: 9,
+        question: "Which HTML tag is used to create a numbered list?",
+        answer: "A. &lt;ol&gt;",
+        options: [
+            "A. &lt;ol&gt;",
+            "B. &lt;ul&gt;",
+            "C. &lt;list&gt;",
+            "D. &lt;dl&gt;"
+        ]
+    },
+    {
+        numb: 10,
+        question: "Which HTML tag is used for the largest heading?",
+        answer: "D. &lt;h1&gt;",
+        options: [
+            "A. &lt;head&gt;",
+            "B. &lt;h6&gt;",
+            "C. &lt;header&gt;",
+            "D. &lt;h1&gt;"
+        ]
+    },
+
+    {
+        numb: 11,
+        question: "What does CSS stand for?",
+        answer: "B. Cascading Style Sheets",
+        options: [
+            "A. Computer Style Sheets",
+            "B. Cascading Style Sheets",
+            "C. Creative Style System",
+            "D. Colorful Style Sheets"
+        ]
+    },
+    {
+        numb: 12,
+        question: "Which CSS property controls the text size?",
+        answer: "C. font-size",
+        options: [
+            "A. text-style",
+            "B. text-size",
+            "C. font-size",
+            "D. font-style"
+        ]
+    },
+    {
+        numb: 13,
+        question: "How do you insert a comment in a CSS file?",
+        answer: "A. /* this is a comment */",
+        options: [
+            "A. /* this is a comment */",
+            "B. // this is a comment",
+            "C. &lt;!-- this is a comment --&gt;",
+            "D. -- this is a comment"
+        ]
+    },
+    {
+        numb: 14,
+        question: "Which property is used to change the background color?",
+        answer: "D. background-color",
+        options: [
+            "A. color",
+            "B. bgcolor",
+            "C. background",
+            "D. background-color"
+        ]
+    },
+    {
+        numb: 15,
+        question: "Which CSS property is used to change the text color of an element?",
+        answer: "A. color",
+        options: [
+            "A. color",
+            "B. fgcolor",
+            "C. text-color",
+            "D. font-color"
+        ]
+    },
+    {
+        numb: 16,
+        question: "How do you make a list that lists its items with squares?",
+        answer: "C. list-style-type: square;",
+        options: [
+            "A. list-type: square;",
+            "B. list: square;",
+            "C. list-style-type: square;",
+            "D. list-shape: square;"
+        ]
+    },
+    {
+        numb: 17,
+        question: "Which property is used to set the spacing between lines of text?",
+        answer: "B. line-height",
+        options: [
+            "A. spacing",
+            "B. line-height",
+            "C. text-spacing",
+            "D. letter-spacing"
+        ]
+    },
+    {
+        numb: 18,
+        question: "Which is the correct CSS syntax?",
+        answer: "A. body {color: black;}",
+        options: [
+            "A. body {color: black;}",
+            "B. {body: color=black;}",
+            "C. body:color=black;",
+            "D. {body;color:black;}"
+        ]
+    },
+    {
+        numb: 19,
+        question: "How do you select an element with id 'demo'?",
+        answer: "C. #demo",
+        options: [
+            "A. .demo",
+            "B. demo",
+            "C. #demo",
+            "D. *demo"
+        ]
+    },
+    {
+        numb: 20,
+        question: "What is the default value of the position property?",
+        answer: "A. static",
+        options: [
+            "A. static",
+            "B. absolute",
+            "C. fixed",
+            "D. relative"
+        ]
+    },
+
+    {
+        numb: 21,
+        question: "What does JavaScript primarily add to a website?",
+        answer: "B. Interactivity",
+        options: [
+            "A. Styling",
+            "B. Interactivity",
+            "C. Structure",
+            "D. Animation"
+        ]
+    },
+    {
+        numb: 22,
+        question: "How do you declare a JavaScript variable?",
+        answer: "A. var x;",
+        options: [
+            "A. var x;",
+            "B. v x;",
+            "C. variable x;",
+            "D. let var = x;"
+        ]
+    },
+    {
+        numb: 23,
+        question: "Which symbol is used for comments in JavaScript?",
+        answer: "B. //",
+        options: [
+            "A. &lt;!-- --&gt;",
+            "B. //",
+            "C. ##",
+            "D. **"
+        ]
+    },
+    {
+        numb: 24,
+        question: "Which method converts JSON to a JavaScript object?",
+        answer: "C. JSON.parse()",
+        options: [
+            "A. JSON.convert()",
+            "B. JSON.toObject()",
+            "C. JSON.parse()",
+            "D. JSON.stringify()"
+        ]
+    },
+    {
+        numb: 25,
+        question: "Which keyword is used to define a constant in JavaScript?",
+        answer: "D. const",
+        options: [
+            "A. var",
+            "B. let",
+            "C. static",
+            "D. const"
+        ]
+    },
+    {
+        numb: 26,
+        question: "Which operator is used to assign a value to a variable?",
+        answer: "A. =",
+        options: [
+            "A. =",
+            "B. ==",
+            "C. ===",
+            "D. := "
+        ]
+    },
+    {
+        numb: 27,
+        question: "Which event occurs when the user clicks on an HTML element?",
+        answer: "C. onclick",
+        options: [
+            "A. onchange",
+            "B. onmouseclick",
+            "C. onclick",
+            "D. onmouseover"
+        ]
+    },
+    {
+        numb: 28,
+        question: "Which built-in method returns the length of a string?",
+        answer: "D. length",
+        options: [
+            "A. size()",
+            "B. count()",
+            "C. index()",
+            "D. length"
+        ]
+    },
+    {
+        numb: 29,
+        question: "Inside which HTML element do we put the JavaScript code?",
+        answer: "B. &lt;script&gt;",
+        options: [
+            "A. &lt;js&gt;",
+            "B. &lt;script&gt;",
+            "C. &lt;javascript&gt;",
+            "D. &lt;code&gt;"
+        ]
+    },
+    {
+        numb: 30,
+        question: "What is the correct syntax to print something in console?",
+        answer: "A. console.log('Hello');",
+        options: [
+            "A. console.log('Hello');",
+            "B. print('Hello');",
+            "C. echo('Hello');",
+            "D. document.print('Hello');"
+        ]
+    },
+
+    {
+        numb: 31,
+        question: "Which protocol is used to transfer web pages?",
+        answer: "C. HTTP",
+        options: [
+            "A. FTP",
+            "B. SMTP",
+            "C. HTTP",
+            "D. TCP"
+        ]
+    },
+    {
+        numb: 32,
+        question: "What does URL stand for?",
+        answer: "B. Uniform Resource Locator",
+        options: [
+            "A. Uniform Reference Link",
+            "B. Uniform Resource Locator",
+            "C. Universal Resource Link",
+            "D. Unified Reference Locator"
+        ]
+    },
+    {
+        numb: 33,
+        question: "What does API stand for?",
+        answer: "A. Application Programming Interface",
+        options: [
+            "A. Application Programming Interface",
+            "B. Application Program Interaction",
+            "C. Applied Programming Interface",
+            "D. Applied Program Internet"
+        ]
+    },
+    {
+        numb: 34,
+        question: "What is the main language used for web page styling?",
+        answer: "D. CSS",
+        options: [
+            "A. JavaScript",
+            "B. HTML",
+            "C. PHP",
+            "D. CSS"
+        ]
+    },
+    {
+        numb: 35,
+        question: "What does DOM stand for?",
+        answer: "C. Document Object Model",
+        options: [
+            "A. Display Object Model",
+            "B. Document Order Model",
+            "C. Document Object Model",
+            "D. Data Object Model"
+        ]
+    }
+];
