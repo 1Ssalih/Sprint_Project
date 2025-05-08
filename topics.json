@@ -1,0 +1,66 @@
+{
+    "html": {
+      "title": "HTML Basics",
+      "subTopics": [
+        {
+          "name": "Document Structure",
+          "detail": "HTML (HyperText Markup Language) forms the backbone of every web page. A proper HTML document starts with &lt;!DOCTYPE html&gt; to define the HTML5 standard, followed by the &lt;html&gt; root tag. Inside, the &lt;head&gt; section contains metadata like the page title, character encoding, and links to stylesheets or scripts, while the &lt;body&gt; includes the actual visible content. Structuring content semantically with appropriate tags ensures better accessibility, SEO, and maintainability."
+        },
+        {
+          "name": "Headings & Paragraphs",
+          "detail": "HTML offers six levels of headings, &lt;h1&gt; to &lt;h6&gt;, which represent the hierarchical structure of content. &lt;h1&gt; is typically used for the main title. Paragraphs are created using the &lt;p&gt; tag and are essential for grouping text into logical blocks. Semantic structuring using headings and paragraphs improves accessibility, readability, and machine interpretation of content."
+        },
+        {
+          "name": "Links & Images",
+          "detail": "The &lt;a&gt; tag creates hyperlinks with the href attribute pointing to the destination. Links can be internal, external, or anchor-based. The &lt;img&gt; tag embeds images and uses src for the image path and alt for alternative text. Providing alt text ensures accessibility for users relying on screen readers and improves SEO."
+        },
+        {
+          "name": "Lists & Tables",
+          "detail": "HTML provides ordered (&lt;ol&gt;) and unordered (&lt;ul&gt;) lists, both using &lt;li&gt; to define list items. Tables are created using &lt;table&gt;, and structured with &lt;tr&gt; (table row), &lt;td&gt; (table data), and &lt;th&gt; (table header). Additional semantic tags like &lt;thead&gt;, &lt;tbody&gt;, and &lt;tfoot&gt; help improve accessibility and organization of tabular data."
+        }
+      ]
+    },
+    "css": {
+      "title": "CSS Basics",
+      "subTopics": [
+        {
+          "name": "Selectors",
+          "detail": "CSS selectors determine which HTML elements a style rule applies to. The most common types include element selectors (e.g., p), class selectors (e.g., .className), ID selectors (e.g., #id), and attribute selectors (e.g., input[type='text']). You can also use pseudo-classes like :hover and pseudo-elements like ::before."
+        },
+        {
+          "name": "Box Model",
+          "detail": "The box model defines how elements are visually displayed and spaced. It consists of four parts: content (the actual text or image), padding (space around content), border (edge around padding), and margin (space outside the border). Proper understanding of the box model is crucial for layout design."
+        },
+        {
+          "name": "Typography & Colors",
+          "detail": "CSS allows control over font styles and color schemes. Properties like font-family, font-size, line-height, and text-align affect how text appears. Colors can be set using keywords (e.g., red), hex values (#ff0000), rgb(), or hsl()."
+        },
+        {
+          "name": "Layouts & Positioning",
+          "detail": "CSS offers several layout techniques: position (static, relative, absolute, fixed), float, flexbox, and grid. Flexbox provides efficient one-dimensional alignment, while CSS Grid handles two-dimensional layouts with precision. These systems are essential for responsive design."
+        }
+      ]
+    },
+    "js": {
+      "title": "JavaScript Basics",
+      "subTopics": [
+        {
+          "name": "Variables & Data Types",
+          "detail": "JavaScript supports three keywords for variable declaration: var, let, and const. Use let for mutable variables and const for constants. Data types include primitives like string, number, boolean, and reference types like objects and arrays."
+        },
+        {
+          "name": "Functions & Scope",
+          "detail": "Functions are reusable blocks of code. You can declare them with the function keyword or use arrow functions (() => { }). Scope determines where variables are accessible — global, function, or block. Closures allow inner functions to access variables from their parent scopes, enabling encapsulation."
+        },
+        {
+          "name": "DOM Manipulation",
+          "detail": "The DOM (Document Object Model) represents the structure of an HTML page. JavaScript can access and modify DOM elements using methods like document.getElementById(), querySelector(), and classList.add(). These methods allow dynamic updates, user interaction, and animation control."
+        },
+        {
+          "name": "Events & Interactivity",
+          "detail": "JavaScript responds to user actions via events like click, input, and submit. You can use addEventListener() to handle these events. Prevent default behaviors using event.preventDefault() and control event flow with bubbling and capturing phases."
+        }
+      ]
+    }
+  }
+  

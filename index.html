@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CodeLingo - Home</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="index.html" class="logo">CodeLingo.</a>
+        <nav class="navbar">
+          <a href="index.html" class="active">Home</a>
+          <a href="learn.html">Learn</a>
+          <a href="gameChallenge.html">Game/Challenge</a>
+          <a href="aboutUs.html">About Us / Support</a>
+        </nav>
+      </header>
+
+      <div class="container">
+        <section class="quiz-section">
+          <div class="quiz-box">
+            <h1>Html Quiz</h1>
+            <div class="quiz-header">
+              <span class="question-progress">1 of 10 Questions</span>
+            </div>
+
+            <h2 class="question-text">What does Html stand for</h2>
+
+            <div class="option-list"></div>
+
+            <div class="quiz-footer">
+              <button class="exit-quiz-btn">Exit Quiz</button>
+              <button class="next-btn">Next</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="home">
+          <div class="home-content">
+            <h1>Code. Build. Succeed.</h1>
+            <p>
+              Interactive quizzes and coding challenges to level up your skills.
+              Start your journey to becoming a confident front-end developer!
+            </p>
+
+            <div
+              class="slider-container wow animate__bounceIn"
+              data-wow-delay="0.3s"
+            >
+              <div class="slider">
+                <div>Sharpen your coding skills!</div>
+                <div>Learn HTML, CSS, and JavaScript!</div>
+                <div>Become a Web Developer!</div>
+                <div>Code, Challenge, Succeed!</div>
+              </div>
+            </div>
+
+            <button class="start-btn wow animate__zoomIn" data-wow-delay="0.6s">
+              Start Quiz
+            </button>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <div class="popup-info">
+      <h2>Quiz Guide</h2>
+      <span class="info"
+        >1. This quiz contains 10 randomly selected questions.</span
+      >
+      <span class="info"
+        >2. You have <strong>15 seconds</strong> to answer each question.</span
+      >
+      <span class="info"
+        >3. You <strong>cannot go back</strong> once you answer a
+        question.</span
+      >
+      <span class="info"
+        >4. Your score will be shown at the end along with feedback.</span
+      >
+      <span class="info"
+        >5. Click <strong>Continue</strong> to start and do your best!</span
+      >
+      <div class="btn-group">
+        <button class="info-btn exit-btn">Exit Quiz</button>
+        <a href="#" class="info-btn continue-btn">Continue</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2025 CodeLingo</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Game Challenge - CodeLingo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="index.html" class="logo">CodeLingo.</a>
+
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+        <link
+          rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.css"
+        />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/codemirror.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.5/mode/javascript/javascript.min.js"></script>
+
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="learn.html">Learn</a>
+          <a href="gameChallenge.html" class="active">Game/Challenge</a>
+          <a href="aboutUs.html">About Us / Support</a>
+        </nav>
+      </header>
+
+      <div class="game-challenge-container">
+        <h1>Game Challenge</h1>
+
+        <section class="code-editor">
+          <h2>Interactive Code Editor</h2>
+          <textarea id="code" placeholder="Write your code here..."></textarea>
+          <button id="runCodeBtn">Run Code</button>
+        </section>
+
+        <section class="challenges">
+          <h2>Challenges</h2>
+          <div id="challengeAccordion">
+            <h3>Challenge 1</h3>
+            <div>
+              <p>Write a function to find the largest number in an array.</p>
+            </div>
+            <h3>Challenge 2</h3>
+            <div>
+              <p>Create a function that reverses a string.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="leaderboard">
+          <h2>Leaderboard</h2>
+          <ol>
+            <li class="aa">Ahmet - 100 points</li>
+            <li class="aa">Ceren - 92 points</li>
+            <li class="aa">Mehmet - 81 points</li>
+            <li class="aa">Mert - 80 points</li>
+          </ol>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 CodeLingo</p>
+    </footer>
+    <script src="gameChallenge.js"></script>
+  </body>
+</html>

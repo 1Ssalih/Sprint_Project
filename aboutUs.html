@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>About Us & Support - CodeLingo</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <a href="index.html" class="logo">CodeLingo.</a>
+        <nav class="navbar">
+          <a href="index.html">Home</a>
+          <a href="learn.html">Learn</a>
+          <a href="gameChallenge.html">Game/Challenge</a>
+          <a href="aboutUs.html" class="active">About Us / Support</a>
+        </nav>
+      </header>
+
+      <div class="about-container">
+        <section class="about-us">
+          <h2 id="aa">About Codelingo</h2>
+          <p>
+            This application is an engaging web platform that teaches the basics
+            of HTML, CSS, and JavaScript. Through tutorials, coding exercises,
+            and mini-games, users can learn web development skills in an
+            enjoyable way. It's designed for beginner developers, students,
+            coding hobbyists, and anyone interested in learning web development
+            through a fun, interactive approach.
+          </p>
+        </section>
+
+        <section class="contact-container">
+          <div class="contact-info">
+            <h2>Contact Support</h2>
+            <p>
+              <strong>📧 Email:</strong>
+              <a href="mailto:support@codelingo.io">support@codelingo.io</a>
+            </p>
+          </div>
+
+          <div class="contact-form">
+            <h2>Get in Touch</h2>
+            <form id="contact-form" action="#" method="POST">
+              <input
+                type="text"
+                id="full-name"
+                placeholder="Full Name"
+                title="Please enter your full name."
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                placeholder="Email"
+                title="Enter a valid email address."
+                required
+              />
+              <input
+                type="text"
+                id="subject"
+                placeholder="Subject"
+                title="Write the subject of your message."
+                required
+              />
+              <input
+                type="text"
+                id="contact-date"
+                placeholder="Preferred Contact Date"
+                title="Choose a date you'd prefer to be contacted."
+              />
+              <textarea
+                id="message"
+                placeholder="How can we help you?"
+                title="Briefly describe your issue or request."
+                required
+              ></textarea>
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </section>
+
+        <div class="location-box">
+          <h3>Your Location Info</h3>
+          <p id="ip-info">Loading...</p>
+        </div>
+
+        <section class="faq">
+          <h2>Frequently Asked Questions</h2>
+          <details>
+            <summary>What is Codelingo?</summary>
+            <p>
+              Codelingo is an interactive platform for coding challenges and
+              skill improvement.
+            </p>
+          </details>
+          <details>
+            <summary>How do I participate in challenges?</summary>
+            <p>Simply sign up and start solving challenges on the platform.</p>
+          </details>
+          <details>
+            <summary>Is Codelingo free?</summary>
+            <p>Yes, Codelingo offers free coding challenges.</p>
+          </details>
+        </section>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 CodeLingo</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <script src="aboutUs.js"></script>
+  </body>
+</html>
