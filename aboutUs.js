@@ -54,4 +54,26 @@ $(document).ready(function() {
       });
     });
   });
+
+function getUserLocation() {
+  $.ajax({
+    url: "https://ipapi.co/json/",
+    method: "GET",
+    success: function (data) {
+      const info = `
+        City: ${data.city}<br>
+        Region: ${data.region}<br>
+        Country: ${data.country_name}
+      `;
+      $("#ip-info").html(info);
+    },
+    error: function () {
+      $("#ip-info").text("Could not retrieve location.");
+    }
+  });
+}
+
+$(document).ready(function () {
+  getUserLocation();
+});
   
