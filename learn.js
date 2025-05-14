@@ -45,7 +45,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-  loadRandomQuote(); // Sayfa yüklendiğinde çalıştır
+  loadRandomQuote();
 });
 
 function loadLocalQuote() {
